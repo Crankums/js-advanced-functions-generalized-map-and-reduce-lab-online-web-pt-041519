@@ -16,4 +16,3 @@ function reduce(src, func, start = 0) {
   }
   return total
 }
-  
