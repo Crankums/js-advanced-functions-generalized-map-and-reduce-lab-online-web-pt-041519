@@ -9,6 +9,6 @@ function map(src, fn) {
 }
 
 function reduce(src, val) {
-  let 
+  let
 
 }
