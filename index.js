@@ -9,7 +9,7 @@ function map(src, fn) {
 }
 
 function reduce(src, start = 0) {
-  
+
   let arr =[]
 
 }
