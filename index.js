@@ -8,7 +8,8 @@ function map(src, fn) {
     return arr
 }
 
-function reduce(src, val) {
-  let
+function reduce(src, start = 0) {
+  
+  let arr =[]
 
 }
