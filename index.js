@@ -1,4 +1,4 @@
-Add your functions here
+// Add your functions here
 function map(src, val) {
     let arr = []
     for (let i=0; i<src.length; i++) {
