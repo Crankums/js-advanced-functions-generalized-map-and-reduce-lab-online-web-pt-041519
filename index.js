@@ -9,5 +9,5 @@ function map(src, val) {
 }
 
 function reduce() {
-  
+
 }
