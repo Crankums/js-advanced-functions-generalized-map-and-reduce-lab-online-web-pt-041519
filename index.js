@@ -1,13 +1,14 @@
 // Add your functions here
-function map(src, val) {
+function map(src, fn) {
     let arr = []
     for (let i=0; i<src.length; i++) {
       let el = src[i]
-      arr.push(val(el))
+      arr.push(fn(el))
     }
     return arr
 }
 
-function reduce() {
+function reduce(src, val) {
+  let 
 
 }
