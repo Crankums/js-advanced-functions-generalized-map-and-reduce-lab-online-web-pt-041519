@@ -8,6 +8,12 @@ function map(src, fn) {
     return arr
 }
 
-function reduce(src, start = 0) {
-  let arr =[]
+function reduce(src, func, start = 0) {
+  let total = (!!start) ? start : src[0]
+
+  for (let i = (!!start) ? 0:1; i<src.length; i++) {
+    total = func(src[i], total)
+  }
+  return total
+}
   
