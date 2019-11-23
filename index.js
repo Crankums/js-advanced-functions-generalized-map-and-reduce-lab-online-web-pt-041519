@@ -11,7 +11,7 @@ function map(src, fn) {
 function reduce(src, func, start = 0) {
   let total = (!!start) ? start : src[0]
 
-  for (let i = (!!start) ? 0:1; i<src.length; i++) {
+  for (let i = (!!start) ? 0:start; i<src.length; i++) {
     total = func(src[i], total)
   }
   return total
